@@ -1,0 +1,187 @@
+{
+    "widgets": [
+        {
+            "x": 0,
+            "y": 9,
+            "type": "text-input",
+            "title": "Navigator Name",
+            "width": 4,
+            "height": 3,
+            "placeholder": "e.g., Arjun Sharma"
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "type": "text-input",
+            "title": "Age and Current Education",
+            "width": 4,
+            "height": 3,
+            "placeholder": "e.g., 21 yrs, B.Tech 3rd Year, Computer Science"
+        },
+        {
+            "x": 8,
+            "y": 9,
+            "type": "text-input",
+            "title": "Target Career and Dream Role",
+            "width": 4,
+            "height": 3,
+            "placeholder": "e.g., Data Scientist at a top tech company"
+        },
+        {
+            "x": 0,
+            "y": 12,
+            "type": "text-input",
+            "title": "Current Skills",
+            "width": 6,
+            "height": 3,
+            "placeholder": "e.g., Python basics, HTML/CSS, Excel, basic SQL"
+        },
+        {
+            "x": 6,
+            "y": 12,
+            "type": "text-input",
+            "title": "Interests and Strengths",
+            "width": 6,
+            "height": 3,
+            "placeholder": "e.g., Data analysis, problem solving, mathematics, finance"
+        },
+        {
+            "x": 0,
+            "y": 15,
+            "type": "text-input",
+            "title": "Daily Study Time",
+            "width": 4,
+            "height": 3,
+            "placeholder": "e.g., 2 hours/day on weekdays, 4 hours on weekends"
+        },
+        {
+            "x": 4,
+            "y": 15,
+            "type": "text-input",
+            "title": "Target Deadline and Goals",
+            "width": 4,
+            "height": 3,
+            "placeholder": "e.g., Internship by June, full-time job in 12 months"
+        },
+        {
+            "x": 8,
+            "y": 15,
+            "type": "text-input",
+            "title": "Industry and Location Preference",
+            "width": 4,
+            "height": 3,
+            "placeholder": "e.g., Tech industry, Bangalore or remote"
+        },
+        {
+            "x": 0,
+            "y": 18,
+            "type": "text-input",
+            "title": "Current Projects and Experience",
+            "width": 6,
+            "height": 3,
+            "placeholder": "e.g., Built Excel dashboard, completed Python course, no internship yet"
+        },
+        {
+            "x": 6,
+            "y": 18,
+            "type": "text-input",
+            "title": "Resume and Certifications",
+            "width": 6,
+            "height": 3,
+            "isOptional": true,
+            "placeholder": "Paste resume highlights or certifications here (optional — improves accuracy)"
+        },
+        {
+            "x": 0,
+            "y": 21,
+            "type": "text-input",
+            "title": "Job Description Scanner Input",
+            "width": 12,
+            "height": 4,
+            "isOptional": true,
+            "placeholder": "OPTIONAL: Paste any job description here to activate Job Match Scanner — get a match score, skill gap vs this specific role, and a 7-day prep plan"
+        },
+        {
+            "x": 0,
+            "y": 213,
+            "type": "chat",
+            "title": "AI Career Coach Chat",
+            "width": 12,
+            "height": 16,
+            "initialUserMessage": "Hello! I need help navigating my career. Please act as my personal AI Career Coach.",
+            "initialAssistantMessage": "Welcome to Career Navigator AI! I'm your personal AI Career Coach. I give you short, specific, actionable answers — not generic advice.\n\nAsk me anything like:\n- 'What should I learn next?'\n- 'Am I ready for an internship?'\n- 'What project should I build?'\n- 'Why am I not getting interviews?'\n- 'How can I improve my resume?'\n- 'Which career fits my skills?'\n- 'What should I do today?'\n- 'I'm confused — activate Career Rescue Mode'\n\nI'm ready to navigate your career with you. What's your question?"
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "type": "static-text",
+            "title": "Career Navigator AI Header",
+            "width": 12,
+            "height": 4,
+            "content": "# 🚀 CAREER NAVIGATOR AI\n### *From Aspiration to an Achievable Plan*\n\n**Dream → Discover → Plan → Build → Achieve**\n\n> *“Don’t just dream about your career. Navigate your way to it.”*\n\n**How to use:** Fill your profile below → All AI modules generate instantly → Get your complete personalized career navigation system."
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "type": "inferred-text",
+            "title": "Career Control Center",
+            "width": 12,
+            "height": 12,
+            "prompt": "You are a premium AI career dashboard. Based on this student profile:\n\nName: [Navigator Name]\nEducation: [Age and Current Education]\nTarget Career: [Target Career and Dream Role]\nCurrent Skills: [Current Skills]\nInterests: [Interests and Strengths]\nStudy Time: [Daily Study Time]\nDeadline: [Target Deadline and Goals]\nIndustry: [Industry and Location Preference]\nProjects: [Current Projects and Experience]\nResume: [Resume and Certifications]\n\nGenerate a CAREER CONTROL CENTER dashboard with these exact sections:\n\n---\n# 🎯 CAREER CONTROL CENTER\n\n## 🚀 YOUR CAREER PROFILE AT A GLANCE\n| Field | Details |\n|---|---|\n| 🎯 Career Goal | write the target career here |\n| 🎓 Current Status | write education and current level here |\n| 📍 You Are Here | one honest sentence about their current position |\n| ⏳ Study Time | daily availability |\n| 📅 Target Deadline | their goal deadline |\n\n## 📊 CAREER READINESS SCORE\nWrite the overall score as XX/100 with a filled block bar like ███████░░░ 70%\n\nThen show each dimension with a score, a short bar, and a green/yellow/red status:\n- Technical Skills score out of 20\n- Projects score out of 15\n- Communication score out of 15\n- Resume score out of 15\n- Internship Readiness score out of 15\n- Interview Readiness score out of 10\n- Consistency score out of 10\n\n## 📡 KEY INSIGHTS\nStrongest Area: write what they do best\nBiggest Weakness: write the most critical gap\nTop Priority This Week: one specific action\n\n## 🎯 TODAY'S 3 ACTIONS\n| Action | Task | Why It Matters |\n|---|---|---|\n| 📚 Learn | specific learning task | reason |\n| 🔧 Practice | specific practice task | reason |\n| 💼 Career | specific career action | reason |\n\n## 🛣️ JOURNEY STAGE\nEducation → Skills → Projects → Internship → Resume → Interview → 🏆 JOB READY\n\nWrite which stage they are currently at and bold it, mark it as YOU ARE HERE, and state what is needed to advance."
+        },
+        {
+            "x": 0,
+            "y": 16,
+            "type": "inferred-text",
+            "title": "Career Compass",
+            "width": 12,
+            "height": 14,
+            "prompt": "You are a career counselor AI. Based on this profile:\n\nName: [Navigator Name]\nEducation: [Age and Current Education]\nTarget Career: [Target Career and Dream Role]\nSkills: [Current Skills]\nInterests: [Interests and Strengths]\nIndustry Preference: [Industry and Location Preference]\n\nGenerate a CAREER COMPASS showing the top 5 career matches. Use this format:\n\n---\n# 🧭 CAREER COMPASS\n### Finding Your Best Career Directions\n\nProfile Summary: write one sentence describing this student's unique profile.\n\n---\n\nFor each of the 5 best career matches, write a section like this:\n\n## 🥇 MATCH 1: write the career name here\n| Metric | Score |\n|---|---|\n| Career Match | write percentage with a block bar e.g. ████████░░ 80% |\n| Current Readiness | write percentage with a block bar |\n| Time to Entry Level | write months |\n| Difficulty | Easy or Medium or Hard |\n\nWhy It Matches: write personalized reason based on their skills and interests\nRequired Skills: list 5 to 6 key skills\nFirst Action: write one specific next step\n\n## 🥈 MATCH 2: write career name\n[follow same format]\n\n## 🥉 MATCH 3: write career name\n[follow same format]\n\n## 🟦 MATCH 4: write career name\n[follow same format]\n\n## 🟣 MATCH 5: write career name\n[follow same format]\n\n---\n\n## 🌟 COMPASS VERDICT\nPrimary Recommendation: write best career path with clear reasoning\nBest Alternative: write the second best option\nYour Unique Advantage: write what makes this student stand out"
+        },
+        {
+            "x": 0,
+            "y": 30,
+            "type": "inferred-text",
+            "title": "Skill Gap Visualizer",
+            "width": 12,
+            "height": 12,
+            "prompt": "You are a skill gap analytics engine. Based on this profile:\n\nTarget Career: [Target Career and Dream Role]\nCurrent Skills: [Current Skills]\nEducation: [Age and Current Education]\nProjects: [Current Projects and Experience]\n\nGenerate a SKILL GAP VISUALIZER. Structure it as follows:\n\n---\n# 🔍 SKILL GAP VISUALIZER\n### Current Skills vs Required Skills\n\n## 📊 SKILL COMPARISON\nFor each of the 10 most important skills for this career, show:\nSkill name, then on the next line: Current level as a filled block bar with percentage, required level, and a status dot (green circle for strong, yellow circle for improving, red circle for missing).\n\nExample format:\nPython\nCurrent: █████░░░░░ 50% | Required: 85% | 🟡 Improving\n\nGenerate this for all 10 skills relevant to their specific career.\n\n## 🟢 STRONG SKILLS\nList skills they already have with brief note on why they are strong.\n\n## 🟡 IMPROVING SKILLS\nList skills partially learned with time needed to close the gap.\n\n## 🔴 MISSING SKILLS\nList missing skills with priority level and estimated weeks to learn.\n\n## 🎯 TOP 3 SKILLS TO LEARN NEXT\n1. Write the most important missing skill, why it unlocks opportunities, how long to learn, and how to learn it.\n2. Write the second most important skill with the same detail.\n3. Write the third skill with the same detail.\n\n## 📈 RECOMMENDED LEARNING SEQUENCE\nWrite the optimal order to learn skills as: Skill A then Skill B then Skill C then Skill D then Skill E then Job Ready."
+        },
+        {
+            "x": 0,
+            "y": 42,
+            "type": "inferred-text",
+            "title": "90 Day Career Sprint",
+            "width": 12,
+            "height": 12,
+            "prompt": "You are a career sprint planner. Based on this profile:\n\nName: [Navigator Name]\nTarget Career: [Target Career and Dream Role]\nSkills: [Current Skills]\nStudy Time: [Daily Study Time]\nDeadline: [Target Deadline and Goals]\nProjects: [Current Projects and Experience]\n\nGenerate a 90-DAY CAREER SPRINT plan. Structure it as follows:\n\n---\n# ⚡ 90-DAY CAREER SPRINT\n### Intense. Focused. Career-Changing.\n\nSprint Mission: Write one sentence on what this student will achieve in 90 days.\n\n## 📍 SPRINT PHASES OVERVIEW\n| Phase | Days | Focus | Outcome |\n|---|---|---|---|\n| Phase 1 | 1 to 30 | Foundation | write the core skills and first project goal |\n| Phase 2 | 31 to 60 | Build and Practice | write the portfolio and application goal |\n| Phase 3 | 61 to 90 | Launch | write the internship and interview readiness goal |\n\n## 🟢 PHASE 1: DAYS 1 TO 30 - FOUNDATION\nPhase Goal: write what they will complete by Day 30.\n\n| Week | Topic | Daily Task | Output |\n|---|---|---|---|\n| Week 1 | write topic | write specific daily task | write deliverable |\n| Week 2 | write topic | write specific daily task | write deliverable |\n| Week 3 | write topic | write specific daily task | write deliverable |\n| Week 4 | write topic | write specific daily task | write deliverable |\n\nDay 30 Checkpoint: list skills gained, project completed, and readiness for Phase 2.\n\n## 🟡 PHASE 2: DAYS 31 TO 60 - BUILD\nPhase Goal: write what they will have by Day 60.\n\n| Week | Topic | Task | Output |\n|---|---|---|---|\n| Week 5 | write topic | write task | write output |\n| Week 6 | write topic | write task | write output |\n| Week 7 | write topic | write task | write output |\n| Week 8 | write topic | write task | write output |\n\nDay 60 Checkpoint: write portfolio status, applications sent target, and interview readiness percentage.\n\n## 🔴 PHASE 3: DAYS 61 TO 90 - LAUNCH\nPhase Goal: write the internship and interview preparation goal.\n\n| Week | Topic | Task | Output |\n|---|---|---|---|\n| Week 9 | write topic | write task | write output |\n| Week 10 | write topic | write task | write output |\n| Week 11 | write topic | write task | write output |\n| Week 12 | write topic | write task | write output |\n\nDay 90 Victory: list 3 measurable achievements with specific metrics.\n\n## ⚠️ SPRINT RISKS\n| Risk | Level | Solution |\n|---|---|---|\n| write risk 1 | High or Medium or Low | write specific fix |\n| write risk 2 | High or Medium or Low | write specific fix |"
+        },
+        {
+            "x": 0,
+            "y": 54,
+            "type": "inferred-text",
+            "title": "Project Recommender",
+            "width": 12,
+            "height": 12,
+            "prompt": "You are a project portfolio designer. Based on this profile:\n\nTarget Career: [Target Career and Dream Role]\nCurrent Skills: [Current Skills]\nEducation: [Age and Current Education]\nExisting Projects: [Current Projects and Experience]\n\nGenerate a PROJECT RECOMMENDER. Format it as:\n\n---\n# 💼 PROJECT RECOMMENDER\n### Build a Portfolio That Gets You Hired\n\n## 📊 PORTFOLIO OVERVIEW\n| Level | Project Name | Tech Stack | Duration | Value |\n|---|---|---|---|---|\n| Beginner | write project name | write tech | write days | High or Medium or Low |\n| Intermediate | write project name | write tech | write weeks | High or Medium or Low |\n| Advanced | write project name | write tech | write weeks | High or Medium or Low |\n\n## 🟢 BEGINNER PROJECT - Start This Week\n| Field | Details |\n|---|---|\n| Project Title | write specific project name |\n| Problem Solved | write the real-world problem it solves |\n| Technologies | write tools and languages |\n| Data Required | write where to get data or tools |\n| Expected Output | write what the finished project delivers |\n| Skills Gained | list skills developed |\n| Time to Complete | write number of days |\n| Resume Bullet | write a strong action-verb bullet with impact metrics |\n\n## 🟡 INTERMEDIATE PROJECT - Next Month\nFollow the same format for an intermediate-level project.\n\n## 🔴 ADVANCED PROJECT - 3-Month Goal\nFollow the same format for an advanced project that demonstrates mastery.\n\n## 📊 PORTFOLIO STRATEGY\n| Platform | What to Post | Why It Matters |\n|---|---|---|\n| GitHub | write upload and structure advice | write recruiter impact |\n| LinkedIn | write how to feature it | write network impact |\n| Portfolio Site | write what page to create | write application impact |\n\n## 🎯 READINESS IMPACT\nAfter all 3 projects, write the estimated improvement in portfolio strength, interview confidence, and resume score as before and after numbers."
+        },
+        {
+            "x": 0,
+            "y": 66,
+            "type": "inferred-text",
+            "title": "Interview Prep and Communication Lab",
+            "width": 12,
+            "height": 12,
+            "prompt": "You are an elite interview coach. Based on this profile:\n\nName: [Navigator Name]\nTarget Career: [Target Career and Dream Role]\nSkills: [Current Skills]\nEducation: [Age and Current Education]\nProjects: [Current Projects and Experience]\n\nGenerate an INTERVIEW PREP + COMMUNICATION LAB. Format it as:\n\n---\n# 🎤 INTERVIEW PREP + COMMUNICATION LAB\n### Practice Until You Win\n\n## 🎮 INTERVIEW READINESS STATUS\n| Level | Focus Area | Status |\n|---|---|---|\n| Beginner | Basic HR and Background | write Ready or Not Ready based on profile |\n| Intermediate | Technical and Behavioral | write Ready or Not Ready |\n| Advanced | Deep Technical and Case Study | write Ready or Not Ready |\n| Real Interview | Full Simulation | write Ready or Not Ready |\n\n## 🔧 TECHNICAL QUESTIONS TO MASTER\nWrite 3 technical questions specific to their target role. For each question write:\n- The question\n- Key points to cover in the answer\n- The most common mistake candidates make\n\n## 👥 HR AND BEHAVIORAL QUESTIONS\nWrite 3 HR or behavioral questions. For each question write:\n- The question\n- How to structure a strong answer using the STAR method\n\n## 🎤 COMMUNICATION LAB\nGD Topic: write a relevant group discussion topic for their industry\nKey Arguments: write 3 strong points to make\nOpening Line: write a template opening statement\n\nJAM Topic: write a Just A Minute topic\nStructure: Intro 10 seconds, Main Point 30 seconds, Example 15 seconds, Conclusion 5 seconds\n\nSelf-Introduction Script: write a personalized 60-second introduction tailored to their target role and background\n\n## 📊 INTERVIEW READINESS SCORECARD\n| Dimension | Score | Improvement Tip |\n|---|---|---|\n| Technical Knowledge | write score out of 20 | write specific tip |\n| Communication Clarity | write score out of 20 | write specific tip |\n| Confidence | write score out of 20 | write specific tip |\n| Answer Relevance | write score out of 20 | write specific tip |\n| Structure and Logic | write score out of 20 | write specific tip |\n\nOverall Interview Score: write total out of 100\nTop 2 Improvements Needed: write the two most important things to work on"
+        },
+        {
+            "x": 0,
+            "y": 78,
+            "type": "inferred-text",
+            "title": "Final AI Career Report",
+            "width": 12,
+            "height": 12,
+            "prompt": "You are a senior career strategist. Based on this complete profile:\n\nName: [Navigator Name]\nEducation: [Age and Current Education]\nTarget Career: [Target Career and Dream Role]\nSkills: [Current Skills]\nInterests: [Interests and Strengths]\nStudy Time: [Daily Study Time]\nDeadline: [Target Deadline and Goals]\nIndustry: [Industry and Location Preference]\nProjects: [Current Projects and Experience]\nResume: [Resume and Certifications]\nJob Description: [Job Description Scanner Input]\n\nGenerate a FINAL AI CAREER REPORT. Format it as:\n\n---\n# 📈 FINAL AI CAREER REPORT\n\n## 📍 STUDENT PROFILE SUMMARY\n| Field | Details |\n|---|---|\n| Name | write name |\n| Education | write education level |\n| Career Goal | write target role |\n| Current Level | write honest one-sentence assessment |\n| Best Career Match | write match percentage |\n| Overall Readiness | write score out of 100 |\n| Top 3 Skills | list the top three skills |\n| Top 3 Skill Gaps | list the three most critical gaps |\n| Recommended Career | write the primary recommendation |\n| 90-Day Goal | write a specific measurable 90-day target |\n\n## 🎯 NAVIGATION SUMMARY\nWhere You Are: write current honest position in one sentence\nWhere You Are Going: write the target destination\nWhat Is Missing: list the top three gaps\nWhat To Do Next: write the single most important immediate action\nAre You Getting Closer: write an encouraging honest assessment\n\n## 📊 KEY SCORES AT A GLANCE\n| Metric | Score | Status |\n|---|---|---|\n| Career Readiness | write score out of 100 | write trend |\n| Skill Readiness | write score out of 100 | write assessment |\n| Interview Readiness | write score out of 100 | write assessment |\n| Portfolio Strength | write score out of 100 | write assessment |\n| Resume Quality | write score out of 100 | write assessment |\n\n## 🚀 PERSONALIZED ACTION PLAN\n| Timeframe | Focus | Goal |\n|---|---|---|\n| Today | write most important task | write what completing it achieves |\n| This Week | write weekly focus | write weekly milestone |\n| This Month | write monthly focus | write monthly milestone |\n| 90 Days | write sprint goal | write 90-day achievement |\n| 6 Months | write medium-term goal | write 6-month milestone |\n\n## ⚠️ MAIN CAREER RISK\nPrimary Risk: write the most dangerous career risk right now\nImmediate Solution: write how to mitigate it this week\n\n## 🏆 NEXT MILESTONE\nYour Next Achievement: write the specific next career milestone\nHow to Reach It: write exact steps\nEstimated Timeline: write weeks or months\n\n---\n*Your career is not a single decision. It is a journey of small, measurable actions taken consistently every day.*\n\n**Navigate your way to it. 🚀**"
+        }
+    ]
+}
